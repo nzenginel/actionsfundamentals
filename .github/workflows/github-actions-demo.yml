@@ -23,8 +23,8 @@ jobs:
       - run: echo "${{ github.event.name }}"
       - run: echo" ${{ github.ref}}"
       - run: |
-        cd ${{ github.workspace }}
-        dir
+          cd ${{ github.workspace }}
+          dir
     
       
       
