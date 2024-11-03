@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4.2.2
         name: Checkut
-      - run: echo "${{ github.event.name }}"
+      - run: echo "${{ github.event_name }}"
       - run: echo "${{ github.ref}}"
       - run: |
           cd ${{ github.workspace }}
